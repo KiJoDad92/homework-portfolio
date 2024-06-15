@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 
 /* brand color palette */
 :root {
@@ -9,6 +7,11 @@
   --tertiary: rgba(49, 52, 61, 1);
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
+}
+
+.image-container img {
+  display: inline-block;
+  width: 100px; 
 }
 
 body {
@@ -20,7 +23,7 @@ body {
   line-height: 1.5;
 }
 
-h,
+h1,
 h2,
 h3,
 h4,
@@ -223,19 +226,10 @@ main {
   color: var(--secondary);
 }
 
-img p{
-width: 5%;
-  height: 5%;
-  padding: 1;
-  margin: 1;
-  object-fit: center;
+#form{
+  justify-content: center;
 }
 
-img div{
-  max-width: 50%;
-  max-height: 50%;
-  object-fit: center;
-}
 
 
 /* portfolio project images */
