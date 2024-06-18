@@ -230,6 +230,18 @@ main {
   justify-content: center;
 }
 
+.section2{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: right;
+  /* background-color:blue; */
+}
+
+.fleximages{
+width:25%;
+height:25%;
+}
+
 
 
 /* portfolio project images */
