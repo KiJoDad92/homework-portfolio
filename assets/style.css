@@ -232,14 +232,16 @@ main {
 
 .section2{
   display:flex;
-  flex-wrap:wrap;
-  flex-direction: right;
+  flex-wrap: wrap;
+  border-color: solid black;
+
+  
   /* background-color:blue; */
 }
 
 .fleximages{
-width:25%;
-height:25%;
+width:30%;
+height:30%;
 }
 
 
