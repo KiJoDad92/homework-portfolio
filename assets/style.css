@@ -18,13 +18,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: var(--primary);
+  color: var(--light);
   background-color: var(--light);
   line-height: 1.5;
+  background-color: var(--tertiary);
 }
 
-h1,
-h2,
+h1
 h3,
 h4,
 h5,
@@ -239,18 +239,32 @@ main {
   /* background-color:blue; */
 }
 
-.fleximages{
-width:30%;
-height:30%;
+
+.fleximages:hover{
+background-size: 100% 100%;
 }
 
-
+h2{
+ text-align:inherit;
+}
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
+.fleximages{
+  width:30%;
+  height:30%;
+  display:block;
+  margin=: 50x 50px;
+padding: 50 50;
+  }
+  
 
+  
 /* media queries */
+@media (min-height: 768px) {
+  body
 
+}
 /* TODO: add media query for a max-width of 980px */
 @media screen and (max-width:980px){
   body
