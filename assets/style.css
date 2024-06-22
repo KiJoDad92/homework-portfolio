@@ -240,21 +240,25 @@ main {
 }
 
 
-.fleximages:hover{
-background-size: 100% 100%;
+.divimages:hover{
+color: #fff;
+border: #000 solid 5px;
 }
 
-h2{
- text-align:inherit;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 .fleximages{
-  width:30%;
-  height:30%;
-  display:block;
-  margin=: 50x 50px;
+  width:50%;
+  height:50%;
+ padding: 50px;
+  margin: 10%;
 padding: 50 50;
   }
   

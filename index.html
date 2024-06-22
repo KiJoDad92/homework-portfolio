@@ -2,56 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, inital scale=1.0" />
     <title>Kirk's Portfolio</title>
-<link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
     <header>
         <h1>Kirk Holt's Portfolio</h1>
-    <nav>
-<a href="#section1" >About me</a>
-<a href=".section2" >Projects</a>
-<a href="#form">Contact me</a>
-<a href="#" >Resume</a>
+        <nav>
+            <a href="#section1">About me</a>
+            <a href=".section2">Projects</a>
+            <a href="#form">Contact me</a>
+            <a href="#">Resume</a>
 
-        
-    </nav>
+
+        </nav>
     </header>
     <main>
-            <section id="section1">
-                <img class="fleximages" src="./images/profile.jpg" alt="picture of kirk holt"/>
-                Hello my name is Kirk Holt. Im 32 years old and am studying to become a web developer.
-                I love to travel with my wife and daughter or be outside, bbq, and play corn hole.
-        </section> 
+        <section id="section1">
+            <img class="fleximages" src="./images/profile.jpg" alt="picture of kirk holt" />
+            Hello my name is Kirk Holt. Im 32 years old and am studying to become a web developer.
+            I love to travel with my wife and daughter or be outside, bbq, and play corn hole.
+        </section>
 
-        <h2>Project 1</h2>
-        <section class="section2">
-        <img class="fleximages" src="./images/pug.jpg" alt="black pug" />
-        <h2>Project 2</h2> 
-        <img class="fleximages" src="./images/forum.jpg" alt="roman forum" />
-        <h2>Project 3</h2>
-        <img class="fleximages" src="./images/mustang.jpg" alt="mustang car"/>
-        <h2>Project 4</h2>
-        <img class="fleximages" src="./images/tacos.jpg" alt="prebuilt website" />
-        <h2>Project 5</h2>
-        <a src="https://kijodad92.github.io/1st-homework/" alt="first accessibility homework" ></a>
-                
-    </section>
-        </main>
+        <div class="container">
+            <section class="section2">
+                <div class="divimages">
+                    <h2>Project 1</h2>
+                    <img class="fleximages" src="./images/pug.jpg" alt="black pug" />
+                </div>
+                <div class="divimages">
+                    <h2>Project 2</h2>
+                    <img class="fleximages" src="./images/forum.jpg" alt="roman forum" />
+                </div>
+                <div class="divimages">
+                    <h2>Project 3</h2>
+                    <img class="fleximages" src="./images/mustang.jpg" alt="mustang car" />
+                </div>
+                <div class="divimages">
+                    <h2>Project 4</h2>
+                    <img class="fleximages" src="./images/tacos.jpg" alt="prebuilt website" />
+                </div>
+                <div class="divimages">
+                    <h2>Project 5</h2>
+                    <a src="https://kijodad92.github.io/1st-homework/" alt="first accessibility homework"></a>
+                </div>
+            </section>
+        </div>
+    </main>
 
-        <footer>
-                <form id="form">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="Fname" name="First name" ><br>
-                    <label for="Lname">last name:</label><br>
-                    <input type="text" id="Lname" name="Last name" ><br>
-                    <label for="Message">Messages:</label><br>
-                    <input type="text" id="message" name="Message" >
-                    <input type="submit" value="submit">
-                </form>
-            </footer>
-        </body>
+    <footer>
+        <form id="form">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="Fname" name="First name"><br>
+            <label for="Lname">last name:</label><br>
+            <input type="text" id="Lname" name="Last name"><br>
+            <label for="Message">Messages:</label><br>
+            <input type="text" id="message" name="Message">
+            <input type="submit" value="submit">
+        </form>
+    </footer>
+</body>
+
 </html>
